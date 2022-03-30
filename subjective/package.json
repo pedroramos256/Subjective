@@ -1,0 +1,22 @@
+{
+    "name": "subjective",
+    "version": "1.0.0",
+    "description": "Protocol for smart contracts with no verifiable truth",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "Pedro Ramos",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    },
+    "dependencies": {
+        "@truffle/contract": "^4.5.1",
+        "truffle-contract": "^4.0.31",
+        "web3": "^1.7.1"
+    }
+}
